@@ -9,6 +9,7 @@
 
 <body>
     <h1>{{$welcome}}</h1>
+    <a href="{{ route('home') }}">Torna alla prima pagina</a>
 
 </body>
 

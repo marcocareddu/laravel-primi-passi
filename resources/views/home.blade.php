@@ -9,6 +9,7 @@
 
 <body>
     <h1>{{$welcome}}</h1>
+    <a href="{{ route('second') }}">Vai alla seconda pagina</a>
 
 </body>
 

@@ -17,10 +17,10 @@ Route::get('/', function () {
     $welcome = 'Benvenuti in Laravel';
 
     return view('home', compact('welcome'));
-});
+})->name('home');
 
-Route::get('/other', function () {
+Route::get('/second/second', function () {
     $welcome = 'Benvenuti nella seconda pagina';
 
-    return view('other', compact('welcome'));
-});
+    return view('second.second', compact('welcome'));
+})->name('second');
