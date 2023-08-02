@@ -18,3 +18,9 @@ Route::get('/', function () {
 
     return view('home', compact('welcome'));
 });
+
+Route::get('/other', function () {
+    $welcome = 'Benvenuti nella seconda pagina';
+
+    return view('other', compact('welcome'));
+});
